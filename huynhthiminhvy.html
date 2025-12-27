@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>
+  Giới thiệu
+ </title>
+ <style>
+ p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+	font-size: 17px;
+
+}
+
+body {
+    background: linear-gradient(135deg, #c46c66, #e39fb2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+container {
+    padding: 20px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+	
+}
+.card {
+	color: white;
+	width: 80%;
+}
+
+.subtitle {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.info p {
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+.slider {
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slide 6s infinite;
+}
+
+.slides img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Animation */
+@keyframes slide {
+    0%   { transform: translateX(0); }
+    33%  { transform: translateX(-100%); }
+    66%  { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+}
+</style>
+</head>
+<body> 
+ <div class="container">
+        <div class="card">
+            <img src="https://i.postimg.cc/Kc1vbWD9/Locket-1761231889300-15.webp" alt="Ảnh đại diện" class="avatar">
+
+            <h1>Huỳnh Thị Minh Vy</h1>
+            <p class="subtitle">Học sinh lớp 12A2| Tổ 3</p>
+
+            <p class="description">
+                Xin chào! Mình là Huỳnh Thị Minh Vy, là học sinh lớp 12A2 niên khóa 2025-2026, thuộc tổ 3.
+            </p>
+
+            <div class="info">
+                <p><strong>Email:</strong> huynhvykl3@gmail.com</p>
+                <p><strong>Sở thích:</strong> Mèo, đọc sách</p>
+            </div>
+ <div class="slider">
+    <div class="slides">
+        <img src="https://i.postimg.cc/52bXf302/IMG-20251010-141342.webp" alt="Meo1">
+        <img src="https://i.postimg.cc/GpB8fptP/IMG-20250505-103145.webp" alt="Meo2">
+        <img src="https://i.postimg.cc/K8jRKYPR/FB-IMG-1745299064471.webp" alt="Mẻo">
+    </div>
+</div>
+         <a href="https://www.facebook.com/vyhuynhnee/">Đường dẫn Facebook</a>
+        </div>
+    </div>
+</body>
+</html>
