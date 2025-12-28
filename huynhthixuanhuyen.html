@@ -3,22 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <title>Giới thiệu bản thân</title>
-    <link rel="stylesheet" href="style1.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ecf0f1;
+        }
+
+        .wrapper {
+            width: 900px;
+            margin: 40px auto;
+            display: flex;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Cột trái */
+        .sidebar {
+            width: 30%;
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .avatar {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid white;
+        }
+
+        /* Cột phải */
+        .content {
+            width: 70%;
+            padding: 30px;
+        }
+
+        .content section {
+            margin-bottom: 25px;
+        }
+
+        .content h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            line-height: 1.6;
+            text-indent: 2em;
+        }
+
+        .content ul {
+            margin-left: 20px;
+        }
+
+        .content li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
 
 <div class="wrapper">
 
     <!-- CỘT TRÁI -->
     <aside class="sidebar">
-        <img src="https://files.catbox.moe/j69fhx.jpg" alt="Ảnh đại diện" class="avatar" width="700" height="auto">
+        <img src="https://files.catbox.moe/j69fhx.jpg" alt="Ảnh đại diện" class="avatar">
     </aside>
 
     <!-- CỘT PHẢI -->
     <main class="content">
+
         <section>
-            <p><h2>Giới thiệu</h2></p>
-            <p><b>Họ và tên:</b> Huỳnh Thị Xuân Huyền </p>
+            <h2>Giới thiệu</h2>
+            <p><b>Họ và tên:</b> Huỳnh Thị Xuân Huyền</p>
             <p><b>Lớp:</b> 12A2</p>
             <p><b>Trường:</b> THPT Nguyễn Trân</p>
         </section>
@@ -29,22 +100,30 @@
                 <li>Nấu ăn</li>
                 <li>Nghe nhạc</li>
                 <li>Xem phim</li>
-				<li>Làm đồ handmade</li>
-				<li>Chơi thể thao</li>
-				<li>Du lịch</li>
+                <li>Làm đồ handmade</li>
+                <li>Chơi thể thao</li>
+                <li>Du lịch</li>
             </ul>
         </section>
+
         <section>
             <h2>Mục tiêu</h2>
-            <p> Mình muốn đi du lịch đến nhiều nơi để khám phá thiên nhiên, văn hóa và con người, từ đó mở rộng tầm nhìn và trải nghiệm cuộc sống.
+            <p>
+                Mình muốn đi du lịch đến nhiều nơi để khám phá thiên nhiên,
+                văn hóa và con người, từ đó mở rộng tầm nhìn và trải nghiệm cuộc sống.
             </p>
         </section>
-		<section>
+
+        <section>
             <h2>Liên hệ</h2>
             <p><b>Email:</b> huynhthixuanhuyen08@gmail.com</p>
-            <p><b>Facebook:</b> 
-            <a href="https://www.facebook.com/xuanhuyen.huynhthi.1" target="_blank">Trang cá nhân</a>
-    </section>
+            <p><b>Facebook:</b>
+                <a href="https://www.facebook.com/xuanhuyen.huynhthi.1" target="_blank">
+                    Trang cá nhân
+                </a>
+            </p>
+        </section>
+
     </main>
 
 </div>
