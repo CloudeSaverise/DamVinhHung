@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLB Truyền Thông - Trường THPT Nguyễn Trân</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+            url('https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/499971090_719663397235539_4113136976867579071_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzYyM7VWmtYWFCWuAgC5P-ghsjpBWEk8eCGyOkFYSTx7w25IO4CK2uXXYdjK6QX3reTdlM_r_yMF4W0nAAgGvx&_nc_ohc=_oSZklGn5sAQ7kNvwGzVVjF&_nc_oc=Adm_GnmmaM15UI4UtnID6MYwhWUjqAfjI9SbvLZBbXiGj-FVSq8mMKUdo6zd5OCbe8-w5QDCSD4bjFeHqxk5kPmp&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=X5BkDKjQ_DMSIru8RcYfKw&oh=00_Afp5sKd1Y5L6tBgKVVIyH7N3B2MhJ1lws81T5L1J4uEybg&oe=69829623');
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* Ban điều hành */
+        .team-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .member-card {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .member-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .position {
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        /* Hoạt động nổi bật */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Ảnh hoạt động */
+        .activity-images {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .activity-images img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .btn {
+            background: #3498db;
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>CLB Truyền Thông</h1>
+    <p>Trường THPT Nguyễn Trân</p>
+</header>
+
+<section id="thanh-vien">
+    <h2>Ban Điều Hành CLB</h2>
+
+    <div class="team-container">
+        <div class="member-card">
+            <img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/491005043_688054613729751_5703240162452259107_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEb0mEpoUbmgVfp4WyUO11SR83crSCCYBVHzdytIIJgFca4piv9JAXnvc5yx9iT4NChuTbqTJORuzCeP3x9eK-5&_nc_ohc=Pg-DQAfCu5cQ7kNvwEnQ2QW&_nc_oc=AdnL8wKO01SqQQhmsSBuKB3iyQVHRZSNXXBIoJMFyJDy6VLGC1DdD41xl8TniuMgrnFc9_bxhAVa8yNiAWjDZ_PB&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=3uOvQa-UQ22TxDAIo58dFw&oh=00_AfoZIIOD2Xc2X3wkwCTCgP-TYFfuYP0soS7ry7uGc7psMg&oe=6982A240">
+            <h3>Trần Thảo Vi</h3>
+            <p class="position">Chủ nhiệm CLB</p>
+            <p>Phụ trách điều hành và định hướng hoạt động truyền thông.</p>
+        </div>
+
+        <div class="member-card">
+            <img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/490738410_688054793729733_1261705861441066170_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEq8H5XnlVtReaPNf3KcIfA9A3iveAMH-D0DeK94Awf4GgyKtGbpgLsfvA1UwGscBHrV4g56fe3s3wbGJwbYmEO&_nc_ohc=rIQgKEgV29QQ7kNvwFR_969&_nc_oc=AdmP-s8KxPlxdEaBL5K_8gXZgHj1bZd3BmPjJUtZSV73h0NRa9E4sVy1ZxZgdceotJGGrK4ODrz8mQJtxHKlKMGC&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=N43Szt5UZFhRbQWxpiMMZA&oh=00_Afofj5SV5sqs8JraL5677zZ4_708Of5nilLnrI6A_EuBuA&oe=69829E2F">
+            <h3>Trần Thị Kim Huệ</h3>
+            <p class="position">Phó chủ nhiệm</p>
+            <p>Quản lý nội dung và hình ảnh truyền thông.</p>
+        </div>
+
+        <div class="member-card">
+            <img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/490737039_688054710396408_3391171641416128766_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK3FZyhn0wZx6ER7D79ilO7k2J1L9vVPbuTYnUv29U9t4Ae7OXW-JGp8ug_E0OmwHEY1a1W4zwNiZ3FGhHKejB&_nc_ohc=L0t7eM7CHpwQ7kNvwGsR4Vu&_nc_oc=AdnKZBbVHUPwbq0IyvX2UJ250ydSwiUo2ugdhaoqhUkV0Rj8tOiVI6g7dWV20sGSaiuo_Vxl0wVdGS_O6FPT-bYQ&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=941L0hkMvNETlxG0MYG1uA&oh=00_AfrsOfSJlS-64SNpNWS44beUjYkBZwJXsSS2jeic7W6F9Q&oe=6982A45C">
+            <h3>Ngọc Lài</h3>
+            <p class="position">Trưởng ban Design</p>
+            <p>Quản lý thiết kế các bài post.</p>
+        </div>
+    </div>
+</section>
+
+<section id="activities" style="background:#fafafa;">
+    <h2>Hoạt Động Nổi Bật</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Sản xuất nội dung</h3>
+            <p>Thiết kế poster, video, bài viết cho các sự kiện của trường.</p>
+        </div>
+
+        <div class="card">
+            <h3>Truyền thông sự kiện</h3>
+            <p>Đồng hành cùng các chương trình lớn nhỏ trong năm học.</p>
+        </div>
+
+        <div class="card">
+            <h3>Hoạt động ngoại khóa</h3>
+            <p>Gắn kết thành viên thông qua các buổi sinh hoạt và trải nghiệm.</p>
+        </div>
+    </div>
+
+    
+    <div class="activity-images">
+        <img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/619530406_914574031077807_8233298346368207913_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFtaNDpk50gq0YvYLo9Abpek_Ir83Ij0aqT8ivzciPRqgVBe_IhfKYp9_woqIASjr5mHYorgm8vRk68n7ZC4ob5&_nc_ohc=QO6lFNmB18IQ7kNvwGAMsLX&_nc_oc=AdnlMIMSHvV65UbSRCbl5FufsF0RHUCvM6eeTz4YmYicnf08AC9tIcSNR3E2c_VwIvVcM2pJPjnb2eq75SSlQFsR&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=Nqo5WSoGVHwl6EfVncq-kQ&oh=00_AfpTBZ257iHJ4ktLrShaje9SLIuL2tLtVXTg8haTCxVCyQ&oe=69829CC7">
+        <img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/597395173_882964950905382_2132329943218823524_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGf63Icg2DsmAOWlrAXUBNRCA_v1tWowAgID-_W1ajACCGP7ymeyCI1kgFTRsrrp8Vs9vPhfPTp_BXhkDX0KtKt&_nc_ohc=98PeL7GKhg0Q7kNvwGFZ-0v&_nc_oc=Adlpqf4EVn2pkQlcQdYTCTXS2i98FH9sNJ3q1Guvfp04nirUn4aWZZQ4li2YLcjO92Jdaxrumwm7aLji8J6O32_t&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=d2Q8rt0GBBCilNiSZUZIuQ&oh=00_AfpgfIoRfqOGNSncfQB_8BCFikLgzw6lWCUJaZ1tEpQLuQ&oe=69828709">
+        <img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/592382053_872755591926318_4818544444764922362_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEu_4MIRz28MP7G8vP55QXIe2oULvq6I6l7ahQu-rojqTlx1vK6dGfqFQtlq8UX2MysaV6YPOE0CxOa3I-p-xQB&_nc_ohc=vcVtXuBMjtEQ7kNvwGd4nEi&_nc_oc=AdlVA5EapaczHA05NmbrUS4H40jU-h3d5P9_kf7Qy7RLB5BBTppL13XzYOIFmrBPuCPGLl5mB46tT9yk6_NtrRNv&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=0GnFBCn1laU8s2_KREO7Cw&oh=00_Afrz6A4poONFvAWT2nhdp8NIWkbIEVnBwF6qmxqeQSd34Q&oe=69829032">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Liên Hệ</h2>
+    <div style="text-align:center;">
+        <p>📧 Email: ntsmediaclub@gmail.com</p>
+        <br>
+        <a href="https://www.facebook.com/ntsmediaclub" class="btn">Đăng ký tham gia</a>
+    </div>
+</section>
+
+</body>
+</html>
