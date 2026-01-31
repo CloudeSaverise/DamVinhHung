@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLB S&B Crew - Trường THPT Nguyễn Trân</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+			url('https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/483432075_660246656521492_9187896192877691851_n.jpg?stp=cp6_dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeF1K9SlOltGiCaQdF_oMI4R5apWY53tW_zlqlZjne1b_N8kUgpgPKAnn6inWXZiYs6RoUuinb_Hal5VbP6L2CZw&_nc_ohc=fid6dje_X2YQ7kNvwH684DN&_nc_oc=Adkigq1pU68jsoLqK-VEJOA7hGh3U4sqPfQ3G0-xVla2N9Nv6r30LhooZs-XBnM-vUJixjaikDmTSEu0gsf2qr6-&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=qfW57WOM35ysYkoYU9nbQw&oh=00_AfqpT8R3r-9a3wKA5A_lbKF8RmeRBSrXFI5h8z9NEL-I4g&oe=69827D30');
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* Ban điều hành */
+        .team-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .member-card {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .member-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .position {
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        /* Hoạt động nổi bật */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Ảnh hoạt động */
+        .activity-images {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .activity-images img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .btn {
+            background: #3498db;
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>CLB S&B Crew</h1>
+    <p>Trường THPT Nguyễn Trân</p>
+</header>
+
+<section id="thanh-vien">
+    <h2>Ban Điều Hành CLB</h2>
+
+    <div class="team-container">
+        <div class="member-card">
+			<img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-1/599674209_1525990241948863_239098267991918718_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=111&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeHfiaYl6rOI7_GjXim877jrJ06p99LjszQnTqn30uOzNOBhxdsNe5TPqmDseYqKpDVtbLcOHwtSUwEe3eqn70Zo&_nc_ohc=EBpMNfLvk4sQ7kNvwF6nzCX&_nc_oc=Adk52zzG9UM7n7BCmnxX-9qTF9PF3RjV34T1FLxnIuUhUI12oDI1n5_iqfy1_W_POYHn5S2k6A56v1pgmhsQXlm4&_nc_zt=24&_nc_ht=scontent.fuih1-1.fna&_nc_gid=BhH491dJM47l7NtsALLsXw&oh=00_Afr9Gphw627XHoAkAlcsqYZNDw0NgTAFMFTwpu9cCoYdfw&oe=6982990A">
+            <h3>Huyền Diệu</h3>
+            <p class="position">Chủ nhiệm CLB</p>
+            <p>Phụ trách điều hành và định hướng hoạt động truyền thông.</p>
+        </div>
+
+        <div class="member-card">
+			<img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-1/618358171_1609120490588974_7558894511655446005_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeH6KAc5TyRHjwK-XoEE0VPtKCgAfx0IrPIoKAB_HQis8kkZCpfEhH6L9PS47LCEJj_0J6wsYpJYFksMhT9PZUkP&_nc_ohc=U1vecLeegsEQ7kNvwH_LQfh&_nc_oc=AdnFDY1rDsYAWhG2KPdjzYTwTnaWT5R860C_0kmTRuVP0_NrNYAnTBeY43cRdItszM-Cw3NuBNHd3T8ZNLY5sBEY&_nc_zt=24&_nc_ht=scontent.fuih1-1.fna&_nc_gid=-rjCYJM0457Y5yRd3pFPWw&oh=00_AfqoUedGkfFkNKtBTKeef3X4dN2TMvTMhraD8Ea2of3gBA&oe=6982AD0D">
+            <h3>Nguyễn Thị Bảo Tú</h3>
+            <p class="position">Thành viên</p>
+            <p>Tham gia luyện tập và biểu diễn.</p>
+        </div>
+
+        <div class="member-card">
+			<img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/484792202_623877790271987_6750619571638976061_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGMbzis3S8KCSJMStoVebbQREvJtZcdG69ES8m1lx0br9sOw2NTppsMstCkprndny2oT8U_2iu6fgzaldtK91xN&_nc_ohc=MutxVSWSlA4Q7kNvwEvKePA&_nc_oc=Admmnhvnn_egkNfsb-3uQuRaZZHuARVhAbSMWT1I75lfkgF_58t1BzDRL7ylKUbH1-BMKmY30YXwNso_Iw5IUGZZ&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=cMAv2ADL18_Y7u-Mas0arg&oh=00_AfomILSbD9tA8rg4OMpMLUKSC4BfKgNCcENc49bOEn4VhA&oe=698296EF">
+            <h3>Quỳnh Quỳnh</h3>
+            <p class="position">Thành viên</p>
+            <p>Tham gia luyện tập và biểu diễn.</p>
+        </div>
+    </div>
+</section>
+
+<section id="activities" style="background:#fafafa;">
+    <h2>Hoạt Động Nổi Bật</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Luyện tập và dàn dựng tiết mục</h3>
+            <p>Tập luyện định kỳ theo lịch, học và hoàn thiện các bài nhảy, múa theo nhiều phong cách.</p>
+        </div>
+
+        <div class="card">
+            <h3>Biểu diễn trong các sự kiện</h3>
+            <p>Tham gia biểu diễn văn nghệ, lễ hội, chương trình của trường.</p>
+        </div>
+
+        <div class="card">
+            <h3>Giao lưu và phát triển kỹ năng</h3>
+            <p>Rèn luyện sự tự tin, tinh thần tập thể và kỹ năng biểu diễn.</p>
+        </div>
+    </div>
+
+    <div class="activity-images">
+		<img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/544414095_798841402662016_1527399462826438508_n.jpg?stp=c0.11.1408.1408a_cp6_dst-jpg_s206x206_tt6&_nc_cat=106&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeHf_L7ozI0jhno1ClbqwBXZIN0gmfC6VsAg3SCZ8LpWwIJkFk7tjOEJtGfr5mupwH170zJjD6nIHpiVfPoGdLOA&_nc_ohc=YU2cR5sqej8Q7kNvwGuK_wr&_nc_oc=Adm-v6n2IN_NTGQ-d9gjQGkPrmN71gzNbq6QMrNIJMX9aJlrNDtUrfRXHv3YAas_k3j8vb4hWbHpinxhaHiJb5nZ&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=_VnNyWQFM55xZWvc7-WgCg&oh=00_AfpTcK6hHxEpnbFr6CTGnJzJMHX2zXhgfrVVAa-rNA4a-Q&oe=698290F2">
+		<img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/513226436_740814155131408_1828699533064341855_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFGfffQGuRquV2yhYJimfi1d1R8gftaEG13VHyB-1oQbdV-GhXYl8dYPqAPkKKmlLwQiHzT5qXSP0ZHzKP8A2zH&_nc_ohc=rDb-f9D5iDsQ7kNvwEXapid&_nc_oc=AdmV3Eg4j-jghwfDX8-D1Q6s608bcQ4S7_XhX9uHiQJzegz8Y6Ropr_XlSP72HxCf4-jiq9XguAtzgkM4Epo06Sp&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=4-b8mugYC4FqzXPdXrgiAA&oh=00_Afr3uypp3KiZHXsWMrGgj1OpPu1OMJwehXEIhQknPF1ITw&oe=69827CE2">
+		<img src="https://scontent.fuih1-1.fna.fbcdn.net/v/t39.30808-6/481981163_656765946869563_938121848564547675_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEjksk_HSPD5pFSYJQZyUM5M0PSzm1RWaAzQ9LObVFZoPnoHn5tLBVIXjmp8evYNXt86QPf918Z963RXDA6P5-9&_nc_ohc=d21MotrOiuoQ7kNvwF_-SOE&_nc_oc=AdkcR0_q2ow15g8xQgxQmhX8npK3iUVhfptjlzLs3I08Nu_pF1Goekp5TDUgiD3UeD1YHIggPJaZONDuNR1XbJ5i&_nc_zt=23&_nc_ht=scontent.fuih1-1.fna&_nc_gid=XOMvsafPeHXicKVfpn4LjQ&oh=00_Afr23v_tTYB4xpZIDxp85XxI_SYrMzCrDIjy_Dm3SIKj9g&oe=69829EEC">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Liên Hệ</h2>
+    <div style="text-align:center;">
+        <p>📧 Email: soundandburncrew@gmail.com</p>
+        <br>
+        <a href="https://www.facebook.com/profile.php?id=100076084898371" class="btn">Đăng ký tham gia</a>
+    </div>
+</section>
+
+</body>
+</html>
